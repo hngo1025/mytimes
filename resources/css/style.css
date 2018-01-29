@@ -5,6 +5,11 @@ body {
 	color: black;
 }
 
+h2 {
+	margin: 0 auto;
+	font-size: 30px;
+}
+
 header {
 	display: flex;
 	font-family: Verdana;
@@ -113,6 +118,10 @@ div {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 17px;
+}
+
+.stories .text-content {
+	height: 250px;
 }
 
 .story {
