@@ -33,8 +33,11 @@ div {
 	border: 1px solid black;
 }
 
-content {
+.content {
 	display: flex;
+	margin: 0 auto 78px auto;
+	width 1232px;
+	padding-top 116px;
 }
 
 .column {
@@ -45,17 +48,14 @@ content {
 
 .column.large {
   width: 630px;
-  display: flex;
 }
 
 .column.medium {
   width: 300px;
-  display: flex;
 
 }
 
 .column.small {
   width: 240px;
-  display: flex;
 
 }
